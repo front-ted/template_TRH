@@ -594,7 +594,10 @@ ul {
 }
 
 .voltar-topo{
-  margin-top: 20px;
+  background: url('../../assets/btn_topo.svg') no-repeat;
+  height: 74px;
+  width: 74px;
+  display: block;
 }
 
 .mover-fazer{
@@ -675,7 +678,7 @@ ul {
   width: 500px;
 }
 .circulo-2 {
-  background-color: #B73061;
+  background-color: #92ACCE;
   height: 250px;
   width: 250px;
   border-radius: 50%;
@@ -689,7 +692,7 @@ ul {
   right: -140px;
 }
 .circulo-4 {
-  background-color: #B73061;
+  background-color: #92ACCE;
   height: 150px;
   width: 150px;
   border-radius: 50%;

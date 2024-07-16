@@ -133,7 +133,7 @@ p {
 
 /*footer*/
 .voltar-topo {
-    background: url('../../assets/bt_topo.svg');
+    background: url('../images/bt_topo.svg');
     width: 42px;
     height: 42px;
     display: block;
@@ -646,7 +646,7 @@ tbody td:first-child {
 }
 
 .destaque.icone.atividade::before {
-    background: url('../images/ico_atividade_desafio.svg') no-repeat;
+    background: url('../images/ico_atividade.svg') no-repeat;
 }
 
 .destaque.icone.visualizar::before {
@@ -752,7 +752,7 @@ tbody td:first-child {
     top: -25px;
     margin: auto;
     left: -10px;
-    background: url('../images/ico_atividade_desafio.svg') no-repeat;
+    background: url('../images/ico_atividade.svg') no-repeat;
     background-size: contain;
 }
 
