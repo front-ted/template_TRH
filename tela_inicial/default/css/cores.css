@@ -4,7 +4,7 @@
 */
 :root{
 	--bg-gradiente-primario: rgb(14, 73, 137);
-	--gradiente-primario: linear-gradient(340deg, rgba(183, 48, 97, 1) 10%, rgba(146, 172, 206, 1) 50%, rgba(14, 73, 137, 1) 92%);
+	--gradiente-primario: linear-gradient(340deg, rgba(183, 48, 97, 1) 3%, rgba(146, 172, 206, .5) 45%, rgba(14, 73, 137, 1) 96%);
 
 	--gradiente-borda: linear-gradient(#fff, #fff) padding-box,
 	linear-gradient(80deg, rgba(14, 73, 137, 1) 10%, rgba(183, 48, 97, 1) 50%, rgba(14, 73, 137, 1) 92%) border-box;

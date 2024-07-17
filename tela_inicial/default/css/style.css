@@ -194,7 +194,7 @@ li a{
   border-radius: 20px;
   border: 0;
   margin-top: .5rem;
-  background-color: #2d6475;
+  background-color: #0E4989;
   font-weight: 500;
   background-image: url(../../assets/printer.svg);
   background-repeat: no-repeat;
@@ -203,7 +203,7 @@ li a{
 .btMenuPrint:hover{
   transform: scale(1.1) ;
   box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
-  background-color: #278dac;
+  background-color: #92ACCE;
 }
 .menuPrint{
   border: 0;
@@ -219,7 +219,7 @@ li a{
   width: 30px;
   height: 30px;
   vertical-align: middle;
-  background-color: #2d6475;
+  background-color: #0E4989;
   border-radius: 15px;
   background-position: center center;
   background-size: 15px;
@@ -687,9 +687,12 @@ ul {
   left: -125px;
 }
 .circulo-3 {
+  background: url('../../../assets/images/asset_circulo.svg') no-repeat;
+  height: 300px;
+  width: 300px;
   position: absolute;
-  bottom: -250px;
-  right: -140px;
+  bottom: -200px;
+  right: -120px;
 }
 .circulo-4 {
   background-color: #92ACCE;

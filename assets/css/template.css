@@ -19,7 +19,7 @@
 
 body {
     background-image: url('../../01_experimentacao/img/textura.png');
-    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), radial-gradient(farthest-corner at 106% 114%, #1A447F 5%, transparent 25%), radial-gradient(farthest-corner at -2% 75%, #CF9993 0%, transparent 25%);
+    background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 0%, transparent 25%), radial-gradient(farthest-corner at 106% 114%, #0E4989 5%, transparent 25%), radial-gradient(farthest-corner at -2% 75%, #B73061 0%, transparent 25%);
     position: relative;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -138,8 +138,8 @@ p {
     height: 42px;
     display: block;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 10px;
+    left: 10px;
     z-index: 900;
 }
 
@@ -393,7 +393,7 @@ tbody td:first-child {
     border: none;
     font-size: 36px;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     margin: 0 auto;
     display: block;
 }
@@ -401,11 +401,9 @@ tbody td:first-child {
 .botaoModalBg:before {
     /* background-image: url('../../01_experimentacao/img/bt_hover.png') !important; */
 
-    background: linear-gradient(90deg, rgba(207, 153, 144, 1) 0%, rgba(146, 172, 206, 1) 100%);
-    background: radial-gradient(farthest-corner at 5% 5%, rgba(207, 153, 144, 1) 50%, rgba(149, 172, 206, 1) 90%);
+    background: linear-gradient(90deg, rgba(183, 48, 97, 1) 0%, rgba(146, 172, 206, 1) 100%);
+    background: radial-gradient(farthest-corner at 5% 5%, rgba(183, 48, 97, 1) 50%, rgba(149, 172, 206, 1) 90%);
 }
-
-.botaoModalBg:hover {}
 
 /*modais*/
 .modal-header {
@@ -533,7 +531,7 @@ tbody td:first-child {
 .grafismo::after {
     content: '';
     display: block;
-    background: url('../images/elemento.png') no-repeat;
+    background: url('../images/asset_circulo.svg') no-repeat;
     height: 256px;
     width: 260px;
     bottom: -83px;
@@ -962,8 +960,8 @@ tbody td:first-child {
     height: 42px;
     position: fixed;
     z-index: 900;
-    right: 50px;
-    bottom: 110px;
+    left: 10px;
+    bottom: 60px;
     cursor: pointer;
     transition: all 0.4s;
     background: url('../images/modo_escuro.svg');
