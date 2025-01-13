@@ -14,6 +14,10 @@
     font-family: "figtree-bold";
     src: url("../fonts/Figtree-Bold.ttf");
 }
+@font-face {
+    font-family: "figtree-bolditalic";
+    src: url("../fonts/Figtree-BoldItalic.ttf");
+}
 
 /* background-image: radial-gradient(farthest-corner at -2% 25%, #92ACCE 5%, transparent 25%), radial-gradient(farthest-corner at 100% 100%, #E9ECEC 0%, transparent 60%), radial-gradient(farthest-corner at -2% 97%, #CF9993 0%, transparent 25%); */
 
@@ -24,7 +28,6 @@ body {
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    /* background-attachment: fixed !important; */
     height: auto;
     overflow-x: hidden;
 }
@@ -98,6 +101,10 @@ h4 {
 
 h5 {
     font-size: 17px;
+}
+
+h1 i, h2 i, h3 i, h4 i, h5 i{
+    font-family: figtree-bolditalic;
 }
 
 p,
