@@ -58,22 +58,22 @@
 } */
 .audio-player::before {
     content: '';
-    background: url('../images/podcast_persona1.png') no-repeat;
+    background: url('../images/podcast_persona1.svg') no-repeat;
     height: 217px;
     width: 220px;
     position: absolute;
-    left: -32px;
-    bottom: -11px;
+    left: -28px;
+    bottom: -15px;
 }
 
 .audio-player::after {
     content: '';
-    background: url('../images/podcast_persona2.png') no-repeat;
+    background: url('../images/podcast_persona2.svg') no-repeat;
     height: 217px;
     width: 235px;
     position: absolute;
-    right: -34px;
-    bottom: -14px;
+    right: -31px;
+    bottom: -11px;
     z-index: 2;
 }
 
